@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Open+Sans:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    font-size: 1rem;
+}
+header{
+    background-color: white;
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+.nav{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    padding: 8px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.box-container{
+    width: 380px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, .5);
+}
+.box-container h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+.box-container button{
+    width: fit-content;
+}
+.Flash-cards{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.Flash-card{
+    width: 370px;
+    height: 200px;
+    word-wrap: break-word;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+}
+.Flash-card h2{
+    font-size: 1rem;
+}
